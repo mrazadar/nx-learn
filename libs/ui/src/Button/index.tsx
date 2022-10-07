@@ -6,11 +6,14 @@ interface ButtonProps extends TouchableOpacityProps{
     text: string
 }
 
-export const Button : React.FunctionComponent<ButtonProps> = ({
-    onPress,
-    text
-}) => {
-
+export const Button = ({
+  text,
+  onPress,
+}: ButtonProps) => {
+// export const Button : React.FunctionComponent<ButtonProps> = ({
+//     onPress,
+//     text
+// }) => {
     return (
         <TouchableOpacity 
             style={styles.button}
