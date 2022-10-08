@@ -6,7 +6,7 @@ export function App() {
   return (
     <View style={styles.box}>
       <Button text="Hello World!" onPress={()=>{console.log("i am pressed")}} />
-      <Text style={styles.text}>This is a demo page.</Text>
+      <Text style={styles.text}>Welcome web users</Text>
     </View>
   );
 }
