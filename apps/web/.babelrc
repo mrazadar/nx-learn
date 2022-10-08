@@ -7,5 +7,9 @@
       }
     ]
   ],
-  "plugins": []
+  "plugins": [["react-native-web", { "commonjs": true }]]
 }
+// {
+//   "presets": ["@nrwl/react/babel"],
+//   "plugins": [["react-native-web", { "commonjs": true }]]
+// }
